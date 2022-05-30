@@ -1,0 +1,77 @@
+.header {
+    position: relative;
+    z-index: 9999;
+    .header-main {
+        padding: 15px;
+        .row {
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            img {
+                max-width: 100%;
+            }
+        }
+        .menu {
+            .menu-list {
+                .menu-item {
+                    display: inline-block;
+                    padding: 15px 0;
+                    margin-right: 40px;
+                    transition: all .3s ease;
+                    a {
+                        position: relative;
+                        display: block;
+                        text-align: center;
+                        opacity: 1;
+                        font-size: 18px;
+                        line-height: 20px;
+                        padding: 0;
+                        color: #303030;
+                        font-weight: 500;
+                        transition: all 300ms ease;
+                        text-transform: capitalize;
+                        &::before {
+                            position: absolute;
+                            left: 50%;
+                            bottom: -4px;
+                            height: 2px;
+                            width: 0%;
+                            background: #ff7424;
+                            content: "";
+                            transition: all 300ms ease;
+                        }
+                        &:hover {
+                            &::before {
+                                left: 0;
+                                width: 50%;
+                                transition: all 300ms ease;
+                            }
+                        }
+                    }
+                }
+            }
+            @media(max-width:991px) {
+                display: none;
+            }
+        }
+        .link-btn {
+            display: flex;
+            align-items: center;
+            #header {
+                margin-left: 20px;
+                display: none;
+                span {
+                    width: 30px;
+                    height: 30px;
+                    display: block;
+                    font-size: 24px;
+                    color: #303030;
+                }
+                @media(max-width: 991px) {
+                    display: block;
+                }
+            }
+        }
+    }
+}

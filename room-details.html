@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akomo</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" />
+    <link rel="stylesheet" href="./lib/mmenu/mmenu.css">
+    <link rel="stylesheet" href="./lib/css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="header-main">
+                <div class="container">
+                    <div class="row">
+                        <a href="./index.html" class="logo">
+                            <img src="./images/logo-dark.png" alt="">
+                        </a>
+                        <nav class="menu">
+                            <ul class="menu-list">
+                                <li class="menu-item active">
+                                    <a href="./index.html" class="menu-link">home</a>
+                                </li>
+                                <li class="menu-item active">
+                                    <a href="./about.html" class="menu-link">about</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="./rooms.html" class="menu-link">rooms</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="./service.html" class="menu-link">service</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="./news.html" class="menu-link">news</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="./contact.html" class="menu-link">contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <nav class="menu" id="menu">
+                            <ul class="menu-list">
+                                <li class="menu-item active">
+                                    <a href="./index.html" class="menu-link">home</a>
+                                </li>
+                                <li class="menu-item active">
+                                    <a href="./about.html" class="menu-link">about</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="./rooms.html" class="menu-link">rooms</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="./service.html" class="menu-link">service</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="./news.html" class="menu-link">news</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="./contact.html" class="menu-link">contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <div class="link-btn">
+                            <a href="" class="btn btn2">book now </a>
+                            <div id="header">
+                                <a href="#menu" id="menu-toggle"><span><i class="fa-solid fa-bars"></i></span></a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="banner page-title">
+                <div class="banner-img">
+                    <img src="./images/bn8.jpg" alt="">
+                </div>
+                <div class="banner-content">
+                    <div class="container">
+                        <h2>
+                            room details
+                        </h2>
+                    </div>
+                </div>
+            </section>
+
+            <section class="room-details pd-100">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>
+                            Get a Comfortable Room Feel The Comfort
+                        </h2>
+                    </div>
+                    <div class="room-grid-image">
+                        <div id="thumd1" class="owl-carousel owl-theme">
+                            <div class="item">
+                                <img src="./images/room-detail-1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="./images/room-detail-2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="./images/room-detail-3.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="./images/room-detail-4.jpg" alt="">
+                            </div>
+
+                        </div>
+
+                        <div id="thumd2" class="owl-carousel owl-theme">
+                            <div class="item">
+                                <img src="./images/room-detail-1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="./images/room-detail-2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="./images/room-detail-3.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="./images/room-detail-4.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="room-tabs">
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#description" role="tab" aria-controls="pills-home" aria-selected="true">description</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#review" role="tab" aria-controls="pills-profile" aria-selected="false">review(234)</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#availability" role="tab" aria-controls="pills-contact" aria-selected="false">AVAILABILITY</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pricing" role="tab" aria-controls="pills-contact" aria-selected="false">PRICING PLAN</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="pills-home-tab">
+                                <div class="room-detail">
+                                    <h2>
+                                        Apartment Signature Balcony Room
+                                    </h2>
+                                    <h4 class="price">
+                                        Start From : $199.00 Night
+                                    </h4>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                                        survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                                        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    </p>
+                                    <h4>
+                                        From The Beginning
+                                    </h4>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    </p>
+                                    <p>
+                                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    </p>
+                                    <h4>
+                                        Room Facilities
+                                    </h4>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    </p>
+                                    <p>
+                                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    </p>
+                                    <p>
+                                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    </p>
+                                    <div class="room-feature">
+                                        <div class="row">
+                                            <div class="col-lg-3 col-md-6 feature-block">
+                                                <div class="inner">
+                                                    <span class="icon">
+                                                        <i class="fa-solid fa-tv"></i>
+                                                    </span>
+                                                    <span class="title">
+                                                        Television
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-6 feature-block">
+                                                <div class="inner">
+                                                    <span class="icon">
+                                                        <i class="fa-solid fa-wifi"></i>
+                                                    </span>
+                                                    <span class="title">
+                                                        wifi
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-6 feature-block">
+                                                <div class="inner">
+                                                    <span class="icon">
+                                                        <i class="fa-solid fa-wifi"></i>
+                                                    </span>
+                                                    <span class="title">
+                                                        wifi
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-6 feature-block">
+                                                <div class="inner">
+                                                    <span class="icon">
+                                                        <i class="fa-solid fa-wifi"></i>
+                                                    </span>
+                                                    <span class="title">
+                                                        wifi
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-6 feature-block">
+                                                <div class="inner">
+                                                    <span class="icon">
+                                                        <i class="fa-solid fa-wifi"></i>
+                                                    </span>
+                                                    <span class="title">
+                                                        wifi
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-6 feature-block">
+                                                <div class="inner">
+                                                    <span class="icon">
+                                                        <i class="fa-solid fa-wifi"></i>
+                                                    </span>
+                                                    <span class="title">
+                                                        wifi
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-6 feature-block">
+                                                <div class="inner">
+                                                    <span class="icon">
+                                                        <i class="fa-solid fa-wifi"></i>
+                                                    </span>
+                                                    <span class="title">
+                                                        wifi
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-6 feature-block">
+                                                <div class="inner">
+                                                    <span class="icon">
+                                                        <i class="fa-solid fa-wifi"></i>
+                                                    </span>
+                                                    <span class="title">
+                                                        wifi
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="review" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                <div class="room-detail">
+                                    <h2>
+                                        review
+                                    </h2>
+                                    <h4 class="price">
+                                        Start From : $199.00 Night
+                                    </h4>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                                        survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                                        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    </p>
+                                    <h4>
+                                        From The Beginning
+                                    </h4>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    </p>
+                                    <p>
+                                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    </p>
+                                    <h4>
+                                        Room Facilities
+                                    </h4>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    </p>
+                                    <p>
+                                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    </p>
+                                    <p>
+                                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="availability" role="tabpanel" aria-labelledby="pills-contact-tab">
+                                <div class="room-detail">
+                                    <h2>
+                                        availability
+                                    </h2>
+                                    <h4 class="price">
+                                        Start From : $199.00 Night
+                                    </h4>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                                        survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                                        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    </p>
+                                    <h4>
+                                        From The Beginning
+                                    </h4>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    </p>
+                                    <p>
+                                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    </p>
+                                    <h4>
+                                        Room Facilities
+                                    </h4>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    </p>
+                                    <p>
+                                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    </p>
+                                    <p>
+                                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pricing" role="tabpanel" aria-labelledby="pills-contact-tab">
+                                <div class="room-detail">
+                                    <h2>
+                                        pricing plan
+                                    </h2>
+                                    <h4 class="price">
+                                        Start From : $199.00 Night
+                                    </h4>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                                        survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                                        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    </p>
+                                    <h4>
+                                        From The Beginning
+                                    </h4>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    </p>
+                                    <p>
+                                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    </p>
+                                    <h4>
+                                        Room Facilities
+                                    </h4>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    </p>
+                                    <p>
+                                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    </p>
+                                    <p>
+                                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="regular-plan">
+                        <h4>
+                            Regular Plan
+                        </h4>
+                        <div class="plan-outer">
+                            <table class="table-plan">
+                                <thead>
+                                    <tr>
+                                        <th>sun</th>
+                                        <th>mon</th>
+                                        <th>tue</th>
+                                        <th>web</th>
+                                        <th>thu</th>
+                                        <th>fri</th>
+                                        <th>sat</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            $299.00
+                                        </td>
+                                        <td>
+                                            $299.00
+                                        </td>
+                                        <td>
+                                            $299.00
+                                        </td>
+                                        <td>
+                                            $299.00
+                                        </td>
+                                        <td>
+                                            $299.00
+                                        </td>
+                                        <td>
+                                            $299.00
+                                        </td>
+                                        <td>
+                                            $299.00
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="review-form">
+                        <div class="box-title">
+                            <h4>
+                                Add First Review
+                            </h4>
+                            <p>
+                                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            </p>
+                        </div>
+                        <form action="">
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <input type="text" class="form-control" placeholder="your name">
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <input type="text" class="form-control" placeholder="your email">
+                                </div>
+                                <div class="col-md-12 form-group">
+                                    <textarea name="" id="" cols="20" rows="5" class="form-control" placeholder="your review"></textarea>
+                                </div>
+                                <div class="col-md-12 form-btn">
+                                    <button class="btn btn2"> add review</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="btn-box text-center">
+                        <a href="" class="btn btn2">book now</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="subscribe page-type2">
+                <div class="container">
+                    <div class="subscribe-main">
+                        <div class="main-inner">
+                            <div class="row">
+                                <div class="col-lg-6 title-column">
+                                    <h4>
+                                        Get 30% Off Every Package
+                                    </h4>
+                                    <div class="text">
+                                        Sigh sang nay sex high yet door game. She dissimilar was favourable unreserved nay expression contrasted saw. Past her find she like.
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 form-column">
+                                    <form action="" class="subscribe-form">
+                                        <div class="form-group">
+                                            <input type="email" name="" id="" placeholder="Write Your Email" class="form-control">
+                                            <button type="submit" class="btn btn2">
+                                                subscribe
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="footer page-type2">
+            <div class="container">
+                <div class="footer-main">
+                    <div class="row">
+                        <div class="col-xl-5">
+                            <div class="footer-column">
+                                <div class="footer-about">
+                                    <div class="logo">
+                                        <a href="./index.html">
+                                            <img src="./images/logo.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="text">
+                                        Sigh sang nay sex high yet door game. She dissimilar was favourable unreserved nay expression contrasted saw. Past her find she like.
+                                    </div>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="">
+                                                <i class="fa-brands fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <i class="fa-brands fa-youtube"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <i class="fa-brands fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-7">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 footer-column">
+                                    <h2 class="widget-title">
+                                        Quick Links
+                                    </h2>
+                                    <ul class="user-link">
+                                        <li>
+                                            <a href="">Get Offer</a>
+                                        </li>
+                                        <li>
+                                            <a href="">about us</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Get discount</a>
+                                        </li>
+                                        <li>
+                                            <a href="">sign up now</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-4 col-md-6 footer-column">
+                                    <h2 class="widget-title">
+                                        Favourites
+                                    </h2>
+                                    <ul class="user-link">
+                                        <li>
+                                            <a href="">Reservations</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Trust & Security</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Administration</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-4 col-md-6 footer-column">
+                                    <h2 class="widget-title">
+                                        Contact Us
+                                    </h2>
+                                    <ul class="user-link">
+                                        <li>
+                                            <a href="">147 Mai Dich Street, Cau Giay District, Hanoi</a>
+                                        </li>
+                                        <li>
+                                            <a href="tel:+(024) 2242 0777">+(024) 2242 0777</a>
+                                        </li>
+                                        <li>
+                                            <a href="mailto:infor@webhotel.vn">infor@webhotel.vn</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <a href="" id="backtotop"><i class="fa-solid fa-arrow-up-long"></i></a>
+
+    <script src="./lib/js/jquery-3.6.0.min.js"></script>
+    <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="./lib/mmenu/mmenu.js"></script>
+    <script src="./lib/js/style.js"></script>
+    <script>
+    </script>
+</body>
+
+</html>

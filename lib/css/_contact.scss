@@ -1,0 +1,134 @@
+section.contact {
+    .infor-column {
+        .inner {
+            padding-left: 40px;
+            padding-right: 50px;
+            .contact-block {
+                position: relative;
+                margin-bottom: 60px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+                .contact-box {
+                    position: relative;
+                    padding: 35px 40px 35px;
+                    background: #ffffff;
+                    border-radius: 5px;
+                    border: 1px solid #ddd;
+                    transition: all 300ms ease;
+                    .icon {
+                        font-size: 40px;
+                        line-height: 1em;
+                        display: block;
+                        color: #1c73ea;
+                        margin-bottom: 18px;
+                        transition: all 300ms ease;
+                    }
+                    h5 {
+                        font-size: 24px;
+                        line-height: 1.2em;
+                        color: #1b212f;
+                        font-weight: 700;
+                        border-bottom: 1px solid #bccadd;
+                        margin-bottom: 20px;
+                        padding-bottom: 20px;
+                        transition: all 300ms ease;
+                        text-transform: capitalize;
+                    }
+                    p {
+                        font-size: 18px;
+                        line-height: 26px;
+                        color: #333333;
+                        font-weight: 400;
+                        transition: all 300ms ease;
+                        a {
+                            color: inherit;
+                        }
+                    }
+                    .social-links {
+                        position: relative;
+                        display: flex;
+                        a {
+                            display: block;
+                            font-size: 16px;
+                            line-height: 34px;
+                            color: #1c73ea;
+                            width: 36px;
+                            height: 36px;
+                            text-align: center;
+                            border: 1px solid #1c73ea;
+                            border-radius: 50%;
+                            margin-right: 15px;
+                            transition: all 300ms ease;
+                        }
+                    }
+                    &:hover {
+                        background-color: #1c73ea;
+                        .icon,
+                        h5,
+                        p {
+                            color: white;
+                        }
+                        .social-links {
+                            a {
+                                background-color: white;
+                            }
+                        }
+                    }
+                }
+            }
+            @media(max-width:1400px) {
+                padding: 0;
+            }
+        }
+        @media(max-width:991px) {
+            order: 2;
+        }
+    }
+    .form-column {
+        position: relative;
+        margin-bottom: 50px;
+        .contact-form {
+            position: relative;
+            padding: 40px 60px 60px;
+            box-shadow: 0 25px 60px rgb(28 115 234 / 10%);
+            margin-bottom: 60px;
+            .form-group {
+                position: relative;
+                margin-bottom: 30px;
+                input,
+                textarea {
+                    position: relative;
+                    display: block;
+                    height: 55px;
+                    width: 100%;
+                    font-size: 16px;
+                    color: #505050;
+                    line-height: 21px;
+                    font-weight: 400;
+                    padding: 15px 15px;
+                    background-color: #ffffff;
+                    transition: all 300ms ease;
+                    border: none;
+                    border-bottom: 2px solid #eaeaea;
+                    &::placeholder {
+                        text-transform: capitalize;
+                    }
+                }
+                textarea {
+                    height: 125px;
+                    resize: none;
+                }
+            }
+            @media(max-width:1400px) {
+                padding: 40px 30px 40px;
+            }
+        }
+        .map {
+            iframe {
+                width: 100%;
+                height: 500px;
+            }
+        }
+    }
+}

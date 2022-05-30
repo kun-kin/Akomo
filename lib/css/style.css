@@ -42,10 +42,10 @@
   content: "";
   transition: all 300ms ease;
 }
-.header .header-main .menu .menu-list .menu-item a:hover::before {
+.header .header-main .menu .menu-list .menu-item:hover a::before,
+.header .header-main .menu .menu-list .menu-item.active a::before {
   left: 0;
-  width: 50%;
-  transition: all 300ms ease;
+  width: 75%;
 }
 @media (max-width: 991px) {
   .header .header-main .menu {

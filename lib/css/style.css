@@ -2232,6 +2232,11 @@ section.new-details .sidebar .tags .popular-tags li a {
   text-transform: capitalize;
   transition: all 300ms ease;
 }
+section.new-details .sidebar .tags .popular-tags li a:hover {
+  border-color: #dc3545;
+  background-color: #dc3545;
+  color: #ffffff;
+}
 
 section.contact .infor-column .inner {
   padding-left: 40px;

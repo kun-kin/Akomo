@@ -76,4 +76,15 @@
             }
         }
     }
+    .header-main.fixed {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: #ffffff;
+        box-shadow: 0 0 20px rgb(0 0 0 / 5%);
+        animation: slideInDown;
+        animation-duration: 1s;
+        animation-fill-mode: both;
+    }
 }
